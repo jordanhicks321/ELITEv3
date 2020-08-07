@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		24B1D90F24C5D9AD00ED9CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D90E24C5D9AD00ED9CDA /* AppDelegate.swift */; };
 		24B1D91124C5D9AD00ED9CDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D91024C5D9AD00ED9CDA /* SceneDelegate.swift */; };
-		24B1D91324C5D9AD00ED9CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D91224C5D9AD00ED9CDA /* ViewController.swift */; };
 		24B1D91624C5D9AD00ED9CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B1D91424C5D9AD00ED9CDA /* Main.storyboard */; };
 		24B1D91924C5D9AD00ED9CDA /* ELITEv3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D91724C5D9AD00ED9CDA /* ELITEv3.xcdatamodeld */; };
 		24B1D91B24C5D9B000ED9CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B1D91A24C5D9B000ED9CDA /* Assets.xcassets */; };
 		24B1D91E24C5D9B000ED9CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B1D91C24C5D9B000ED9CDA /* LaunchScreen.storyboard */; };
+		24B1D92624C5D9C800ED9CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D92524C5D9C800ED9CDA /* ViewController.swift */; };
+		24B1D92824C5D9E400ED9CDA /* Open Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D92724C5D9E400ED9CDA /* Open Project.swift */; };
+		24B1D92A24C5D9EE00ED9CDA /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D92924C5D9EE00ED9CDA /* Project.swift */; };
+		24B1D92C24C5DA1700ED9CDA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D92B24C5DA1700ED9CDA /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24B1D90B24C5D9AD00ED9CDA /* ELITEv3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELITEv3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B1D90E24C5D9AD00ED9CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24B1D91024C5D9AD00ED9CDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24B1D91224C5D9AD00ED9CDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24B1D91524C5D9AD00ED9CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24B1D91824C5D9AD00ED9CDA /* ELITEv3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ELITEv3.xcdatamodel; sourceTree = "<group>"; };
 		24B1D91A24C5D9B000ED9CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B1D91D24C5D9B000ED9CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		24B1D91F24C5D9B000ED9CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B1D92524C5D9C800ED9CDA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../DTIv2/DTIv2/ViewController.swift; sourceTree = "<group>"; };
+		24B1D92724C5D9E400ED9CDA /* Open Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Open Project.swift"; sourceTree = "<group>"; };
+		24B1D92924C5D9EE00ED9CDA /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		24B1D92B24C5DA1700ED9CDA /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		24B1D92D24C5DF1C00ED9CDA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,14 @@
 			children = (
 				24B1D90E24C5D9AD00ED9CDA /* AppDelegate.swift */,
 				24B1D91024C5D9AD00ED9CDA /* SceneDelegate.swift */,
-				24B1D91224C5D9AD00ED9CDA /* ViewController.swift */,
+				24B1D92524C5D9C800ED9CDA /* ViewController.swift */,
+				24B1D92724C5D9E400ED9CDA /* Open Project.swift */,
+				24B1D92924C5D9EE00ED9CDA /* Project.swift */,
+				24B1D92B24C5DA1700ED9CDA /* Login.swift */,
 				24B1D91424C5D9AD00ED9CDA /* Main.storyboard */,
 				24B1D91A24C5D9B000ED9CDA /* Assets.xcassets */,
 				24B1D91C24C5D9B000ED9CDA /* LaunchScreen.storyboard */,
-				24B1D91F24C5D9B000ED9CDA /* Info.plist */,
+				24B1D92D24C5DF1C00ED9CDA /* Info.plist */,
 				24B1D91724C5D9AD00ED9CDA /* ELITEv3.xcdatamodeld */,
 			);
 			path = ELITEv3;
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B1D92C24C5DA1700ED9CDA /* Login.swift in Sources */,
+				24B1D92624C5D9C800ED9CDA /* ViewController.swift in Sources */,
 				24B1D91924C5D9AD00ED9CDA /* ELITEv3.xcdatamodeld in Sources */,
-				24B1D91324C5D9AD00ED9CDA /* ViewController.swift in Sources */,
 				24B1D90F24C5D9AD00ED9CDA /* AppDelegate.swift in Sources */,
 				24B1D91124C5D9AD00ED9CDA /* SceneDelegate.swift in Sources */,
+				24B1D92824C5D9E400ED9CDA /* Open Project.swift in Sources */,
+				24B1D92A24C5D9EE00ED9CDA /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24MMRKP3BV;
 				INFOPLIST_FILE = ELITEv3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24MMRKP3BV;
 				INFOPLIST_FILE = ELITEv3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
